@@ -2,7 +2,7 @@
 
 ## Site qui permet de créer des recettes de cuisine et de les filtrer
 
- <img style="width: 100px;" src=".front/src/images/git/1.png" alt="Game Workshop Logo"> <img style="width: 100px;" src=".front/src/images/git/2.png" alt="Game Workshop Logo"> <img style="width: 100px;" src=".front/src/images/git/3.png" alt="Game Workshop Logo">
+ <img style="width: 100px;" src="./front/src/images/git/1.png" alt="Game Workshop Logo"> <img style="width: 100px;" src="./front/src/images/git/2.png" alt="Game Workshop Logo"> <img style="width: 100px;" src="./front/src/images/git/3.png" alt="Game Workshop Logo">
 
 ## Technos :
 
