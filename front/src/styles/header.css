@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 'logoPolice';
+	src: url('../images/fonts/foptitles.ttf');
+}
+
+@font-face {
+	font-family: 'ibmPolice';
+	src: url('../images/fonts/IBM-Logo.ttf');
+}
+
+@font-face {
+	font-family: 'longhaulPolice';
+	src: url('../images/fonts/Longhaul.ttf');
+}
+
+@font-face {
+	font-family: 'metal';
+	src: url('../images/fonts/gunmetl.ttf');
+}
+
+.logoPolice {
+	font-family: 'logoPolice';
+	font-size: 40px;
+}
+
+header {
+	border-top: 50px solid black;
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	padding: 20px;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.03);
+	padding-top: 0px;
+}
+
+.center_header {
+	position: absolute;
+	left: 46%;
+}
+
+header a {
+	margin-left: 15px;
+	color: inherit;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+header .searchRecipes {
+	margin-left: 15px;
+}
+
+.fa-user {
+	border-radius: 50%;
+	border: 1px solid black;
+	padding: 3px;
+}
+
+.logo_header {
+	position: absolute;
+	left: 48vw;
+}
+
+.activeLink{
+	color: red;
+}
+
+@media screen and (max-width:626px){
+	.center_header {
+		position:static;
+		left: 46%;
+	}
+
+	.logoPolice{
+		font-size:35px;
+	}
+}

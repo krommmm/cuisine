@@ -1,0 +1,143 @@
+.recipes {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.recipes .search_bar {
+	position: relative;
+}
+
+.recipes .search_bar input {
+	width: 100%;
+	padding: 15px;
+	font-size: 17px;
+}
+
+.recipes .search_bar .fa-magnifying-glass {
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.recettes_container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: auto;
+	opacity:0;
+	animation-name: chgt-opacity;
+     animation-duration: 1s;
+	 animation-fill-mode: forwards;
+}
+
+@keyframes chgt-opacity{
+	from{opacity:0; transform: translateY(10%);}
+	to{opacity:1; transform: translateY(0%);}
+ }  
+
+.recettes_container a {
+	color: inherit;
+}
+
+.recipes article {
+	position: relative;
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.recipes_title {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	position: absolute;
+	width: 17vw;
+	max-width:400px;
+	bottom: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 3px;
+	box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.21);
+	-webkit-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.21);
+	-moz-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.21);
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: capitalize;
+	word-break: break-word;
+	z-index:999;
+}
+
+.recipes_title p {
+	margin-left: 10px;
+	white-space: nowrap; /* empêche le texte de se retourner à la ligne */
+  overflow: hidden; /* cache le texte qui dépasse */
+  text-overflow: ellipsis; 
+  font-family: Barlow Condensed;
+  font-weight: 600;
+  color: white;
+}
+
+.recipes article img { 
+	width: 17vw;
+	height: 17vw;
+	object-fit: cover;
+	border-radius: 3px;
+	transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.recipes article img:hover{
+	transform: scale(1.1);
+	transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.recipes article .img_container{
+	overflow:hidden;
+}
+
+.search_bar {
+	width: 600px;
+	padding: 10px;
+}
+
+.citations p{
+	font-family: 'Mate SC', serif;
+	margin:10px;
+	text-align:center;
+}
+
+
+
+@media screen and (max-width: 900px) {
+	.recettes_container {
+		width: 100%;
+	}
+
+	.recipes article img {
+		width: 30vw;
+		height: 30vw;
+		max-width:400px;
+		max-height:400px;
+	}
+	.recipes_title {
+		width: 30vw;
+	}
+}
+
+@media screen and (max-width: 666px) {
+	.formRecettes {
+		text-align: center;
+	}
+
+	.recipes .search_bar input {
+		width: 70vw;
+		padding: 10px 53px 15px 15px;
+	}
+
+	.recipes .search_bar {
+		width: 70vw;
+	}
+}

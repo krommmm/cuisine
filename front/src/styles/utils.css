@@ -1,0 +1,157 @@
+#root {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+* {
+	box-sizing: border-box;
+	font-family: 'Barlow', sans-serif;
+}
+html,
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.index {
+	background-color: rgba(0, 0, 0, 0.03);
+}
+.index,
+.focus,
+.indexProfil,
+.addRecipes,
+.coucou,
+.resetPassword {
+	flex: 1;
+}
+
+.bouton-gris {
+	padding: 15px;
+	margin: 5px;
+	border: solid 1px black;
+	text-align: center;
+	background: #ffd7d7;
+	border: 2px solid #000;
+	border-radius: 5px;
+	box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+		0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+	color: #000;
+	font-weight: 600;
+	padding: 10px;
+	display: inline-block;
+}
+
+.bouton_jaune {
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
+	background-color: #efc11e;
+	box-shadow: inset 0 0 36px -7px #dc9014;
+	color: black;
+	max-width: 200px;
+	min-width:100px;
+	margin: 10px;
+	border: 1px solid #efc11e;
+	border-radius: 3px;
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+	cursor: pointer;
+	text-align:center;
+}
+
+.bouton_jaune:active {
+	border: 3px solid #e6cf7d;
+	border-radius: 3px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
+	background-color: #efc11e;
+	box-shadow: inset 0 0 36px -7px #dc9014;
+	color: black;
+	max-width: 200px;
+	margin: 10px;
+
+	border-radius: 3px;
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+	cursor: pointer;
+}
+
+.bouton_rouge {
+	padding: 10px;
+	background-color: black;
+	box-shadow: inset 0 0 36px -7px black;
+	color: white;
+	max-width: 200px;
+	margin: 10px;
+	border-radius: 3px;
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+	cursor: pointer;
+}
+
+.bouton_noir {
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
+
+.loadingContainer::before {
+	content: '';
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+
+	border-top-color: #767676;
+	animation: container 1s ease-in-out infinite;
+	background-color: white;
+}
+
+.fa-trash-can {
+	margin-left: 10px;
+}
+.fa-trash-can:hover {
+	color: red;
+}
+
+input{
+	min-width: 150px;
+}
+
+
+
+
+@keyframes container {
+	to {
+	}
+}
+
+.loading-container {
+	position: relative;
+	width: 20vw;
+	height: 20vw;
+}
+
+.loading {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 40px;
+	height: 40px;
+	margin: -20px 0 0 -20px;
+	border-radius: 50%;
+	border: 3px solid rgba(0, 0, 0, 0.1);
+	border-top-color: #767676;
+	animation: spin 1s ease-in-out infinite;
+	z-index: 1;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/*
+
+*/
