@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d0e9c0e6.css",
+    "main.js": "/static/js/main.fcd4d7c6.js",
+    "static/js/453.1b649384.chunk.js": "/static/js/453.1b649384.chunk.js",
+    "static/media/plat.jpg": "/static/media/plat.510c8a76b45adf61544a.jpg",
+    "static/media/logo.jpg": "/static/media/logo.69f7902e5ba34f3e6216.jpg",
+    "static/media/Montage-Demo.ttf": "/static/media/Montage-Demo.9f0414533397efd0cf36.ttf",
+    "static/media/foptitles.ttf": "/static/media/foptitles.839cdcf408c6c8a0cec5.ttf",
+    "static/media/gunmetl.ttf": "/static/media/gunmetl.bc760098f694b5906fd5.ttf",
+    "static/media/Longhaul.ttf": "/static/media/Longhaul.7685f03b671a2dffc164.ttf",
+    "static/media/IBM-Logo.ttf": "/static/media/IBM-Logo.ea9b8ea99532f40a5c49.ttf",
+    "index.html": "/index.html",
+    "main.d0e9c0e6.css.map": "/static/css/main.d0e9c0e6.css.map",
+    "main.fcd4d7c6.js.map": "/static/js/main.fcd4d7c6.js.map",
+    "453.1b649384.chunk.js.map": "/static/js/453.1b649384.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0e9c0e6.css",
+    "static/js/main.fcd4d7c6.js"
+  ]
+}
