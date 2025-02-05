@@ -9,7 +9,7 @@ const Header = () => {
 	return (
 		<>
 			<header>
-				<p class="logoPolice">Cuisine famille</p>
+				<p class="logoPolice">Secrets De Cuisine</p>
 				<div class="center_header">
 				<NavLink
 					to="/"
